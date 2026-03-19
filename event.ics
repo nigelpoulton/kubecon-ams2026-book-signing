@@ -4,10 +4,15 @@ PRODID:-//Akamai//KubeCon Event//EN
 BEGIN:VEVENT
 UID:book-signing-kubecon-2026@akamai.com
 DTSTAMP:20260324T115000Z
-DTSTART;TZID=Europe/Amsterdam:20260324T125000
+DTSTART;TZID=Europe/Amsterdam:20260324T130000
 DTEND;TZID=Europe/Amsterdam:20260324T140000
 SUMMARY:Free book signing - The Kubernetes Book
 LOCATION:Akamai booth (booth 460)
-DESCRIPTION:Nigel Poulton is signing FREE copies of the 2026 edition of his best selling book, The Kubernetes Book. First come, first served.
+DESCRIPTION:Nigel Poulton is signing FREE copies of the 2026 edition of his best selling book\, The Kubernetes Book. First come\, first served.
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Book signing at Akamai booth 460 starts in 15 minutes!
+END:VALARM
 END:VEVENT
 END:VCALENDAR
